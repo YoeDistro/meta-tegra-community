@@ -1,6 +1,6 @@
 SUMMARY = "X Render extension exerciser"
 HOMEPAGE = "https://gitlab.freedesktop.org/xorg/test/rendercheck"
-LICENSE = "GPL-2.0-or-later AND MIT"
+LICENSE = "GPL-2.0-or-later & MIT"
 LIC_FILES_CHKSUM = "file://COPYING;md5=ff84617f9d8cecf388d25880f32448b0"
 
 SRC_URI = "git://gitlab.freedesktop.org/xorg/test/rendercheck.git;protocol=https;branch=master \
