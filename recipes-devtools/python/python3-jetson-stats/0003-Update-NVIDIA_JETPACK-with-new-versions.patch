@@ -1,0 +1,24 @@
+From 6fe25183e8bbababbe7309488a592f1a309da198 Mon Sep 17 00:00:00 2001
+From: Johnny <johnnynuca14@gmail.com>
+Date: Sun, 9 Aug 2026 10:37:01 +0200
+Subject: [PATCH] Update NVIDIA_JETPACK with new versions
+
+Upstream-Status: Backport [https://github.com/rbonghi/jetson_stats/commit/19e2288d03eedb385abca8ae2bc625fdccd1eb40]
+Signed-off-by: Matt Madison <matt@madison.systems>
+---
+ jtop/core/jetson_variables.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/jtop/core/jetson_variables.py b/jtop/core/jetson_variables.py
+index c9c71ab..97b9624 100644
+--- a/jtop/core/jetson_variables.py
++++ b/jtop/core/jetson_variables.py
+@@ -45,6 +45,8 @@ if not sys.warnoptions:
+ # https://developer.nvidia.com/embedded/jetpack-archive
+ NVIDIA_JETPACK = {
+     # -------- JP7 --------
++    "39.2.2": "7.2.2",
++    "39.2.1": "7.2.1",
+     "39.2.0": "7.2 GA",
+     "39.0.0": "7.2 EA",
+     "38.4.0": "7.1",
