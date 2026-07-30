@@ -53,4 +53,4 @@ RDEPENDS:${PN} += " \
     tegra-tools-tegrastats \
     nv-tegra-release \
 "
-RRECOMMENDS:${PN} += "kernel-module-nvgpu"
+RRECOMMENDS:${PN} += "kernel-module-nvgpu tegra-libraries-nvml"
